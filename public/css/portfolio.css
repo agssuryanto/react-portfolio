@@ -1,0 +1,50 @@
+/*
+font-family: 'Raleway', sans-serif;
+font-family: 'Dancing Script', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Lobster Two', cursive;
+*/
+
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-toggler {
+    color: black !important;
+    border: 0px !important;
+}
+
+li.nav-item {
+    color: black !important;
+}
+
+a.nav-link {
+    color: black !important;
+}
+
+
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) { 
+
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { ... }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { ... }
+
+@media (max-width: 992px) {
+    .navbar {
+        background-color: white !important;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { ... }
